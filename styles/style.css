@@ -1,0 +1,1517 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../Inter/web/Inter-Thin-BETA.woff2") format("woff2"), url("../Inter/web/Inter-Thin-BETA.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../Inter/web/Inter-ExtraLight-BETA.woff2") format("woff2"), url("../Inter/web/Inter-ExtraLight-BETA.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../Inter/web/Inter-Light-BETA.woff2") format("woff2"), url("../Inter/web/Inter-Light-BETA.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../Inter/web/Inter-Regular.woff2") format("woff2"), url("../Inter/web/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../Inter/web/Inter-Medium.woff2") format("woff2"), url("../Inter/web/Inter-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../Inter/web/Inter-SemiBold.woff2") format("woff2"), url("../Inter/web/Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../Inter/web/Inter-Bold.woff2") format("woff2"), url("../Inter/web/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../Inter/web/Inter-Black.woff2") format("woff2"), url("../Inter/web/Inter-Black.woff") format("woff");
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-block-start: 0;
+  -webkit-margin-block-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+body {
+  background-color: #2A2C2F;
+}
+
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header {
+  max-width: 1184px;
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.header__lang {
+  font-family: 'Inter';
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 23px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang_active {
+  text-decoration: underline;
+  right: 48px;
+}
+
+.lead {
+  margin-top: 50px;
+  width: 985px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lead__title {
+  width: 100%;
+  font-size: 96px;
+  line-height: 92px;
+  width: 782px;
+  text-align: center;
+}
+
+.lead__subtitle {
+  margin-top: 48px;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  width: 583px;
+  height: 65px;
+}
+
+.lead__image {
+  position: relative;
+  margin-top: 78px;
+}
+
+.lead__group {
+  position: absolute;
+  left: 20px;
+  bottom: 200px;
+}
+
+.lead__kalegin {
+  width: 100%;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 200;
+  margin-top: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  width: 636px;
+}
+
+.intro {
+  margin-top: 100px;
+  width: 984px;
+  margin-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro__title {
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 45px;
+}
+
+.intro__subtitle {
+  font-size: 24px;
+  margin-bottom: 35px;
+  font-weight: 300;
+  line-height: 37px;
+}
+
+.intro__content-row {
+  width: 100%;
+  position: relative;
+  height: 154px;
+  margin-bottom: 35px;
+}
+
+.intro__text {
+  width: 683px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro__subscribe {
+  width: 283px;
+  font-size: 10px;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.intro__subscribe-bold {
+  font-weight: 600;
+  margin-right: 3px;
+}
+
+.intro__desription {
+  width: 383px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.intro__desription-text {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.intro__description-normal {
+  font-weight: 300;
+}
+
+.grid-photos {
+  width: 100%;
+  max-width: 1184px;
+  margin-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-photos__container {
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  width: 100%;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.grid-photos__image {
+  width: 284px;
+  height: 188px;
+}
+
+.places {
+  width: 984px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.place {
+  width: 100%;
+  margin-bottom: 72px;
+  width: 984px;
+}
+
+.place__header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+.place__title {
+  font-size: 72px;
+  line-height: 65px;
+  width: 457px;
+  margin-right: 43px;
+}
+
+.place__web {
+  color: white;
+  width: 484px;
+  font-weight: 200;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.place__url {
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  margin-bottom: 16px;
+  color: #AAAAAA;
+}
+
+.place__main-contest {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+  background-size: cover;
+  margin-right: 40px;
+}
+
+.place__image_kosa {
+  background-image: url("../Images/kosa.jpg");
+}
+
+.place__image_kolski {
+  background-image: url("../Images/kolsky.jpg");
+}
+
+.place__image_altai {
+  background-image: url("../Images/altai.jpg");
+}
+
+.place__image_baikal {
+  background-image: url("../Images/winter-baikal.jpg");
+}
+
+.place__image_karelia {
+  background-image: url("../Images/karelia.jpg");
+}
+
+.place__text {
+  width: 484px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+  margin-bottom: 36px;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__title {
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  width: 800px;
+  margin-bottom: 48px;
+}
+
+.video__subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  width: 640px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+
+.video__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+}
+
+.video__item {
+  position: relative;
+  width: 583px;
+  height: 323px;
+}
+
+.video__icon {
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  z-index: 20;
+  opacity: 1;
+}
+
+.video__duration {
+  position: relative;
+  margin-top: 165px;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  opacity: 1;
+  margin-left: 30px;
+}
+
+.video__item-title {
+  margin-left: 30px;
+  position: relative;
+  font-size: 36px;
+  line-height: 39px;
+  width: 322px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  z-index: 20;
+  opacity: 1;
+}
+
+.video__item-subtitle {
+  margin-left: 30px;
+  position: relative;
+  font-size: 14px;
+  line-height: 15px;
+  z-index: 20;
+  font-weight: 300;
+  opacity: 1;
+}
+
+.video__background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+  border-radius: 5px;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.video__background_kamchatka {
+  background-image: url("../Images/kamchatka.jpg");
+}
+
+.video__background_observatory {
+  background-image: url("../Images/observatory.jpg");
+}
+
+.additional {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.additional__title {
+  width: 800px;
+  height: 69px;
+  font-size: 72px;
+  line-height: 65px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.additional__subtitle {
+  width: 640px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.additional__container {
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-column-gap: 16px;
+}
+
+.additional__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 284px;
+  height: 330px;
+  position: relative;
+}
+
+.additional__item-title {
+  width: 248px;
+  height: 55px;
+  font-size: 27px;
+  line-height: 29px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 20;
+}
+
+.additional__text {
+  width: 248px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  font-weight: 300;
+  z-index: 20;
+}
+
+.additional__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.additional__image_novoros {
+  background-image: url('../Images/nvrssk.jpg');
+}
+
+.additional__image_aracul {
+  background-image: url('../Images/shickan.jpg');
+}
+
+.additional__image_cherepovec {
+  background-image: url('../Images/cherepovets.jpg');
+}
+
+.additional__image_nicola {
+  background-image: url('../Images/nikola.jpg');
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.comments__title {
+  font-size: 72px;
+  line-height: 65px;
+  text-align: center;
+  width: 800px;
+  margin-bottom: 48px;
+}
+
+.comments__subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  width: 640px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+
+.comments__container {
+  display: grid;
+  grid-template-columns: repeat(3, 382px);
+  grid-column-gap: 19px;
+}
+
+.comments__item {
+  width: 382px;
+}
+
+.comments__image {
+  width: 98px;
+  height: 98px;
+  border-radius: 49px;
+  background-size: cover;
+}
+
+.comments__image_victor {
+  background-image: url('../Images/lyagushkin.jpg');
+}
+
+.comments__image_ivan {
+  background-image: url('../Images/hafizov.jpg');
+}
+
+.comments__image_sergei {
+  background-image: url('../Images/maksimshin.jpg');
+}
+
+.comments__text {
+  width: 382px;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+  margin-top: 42px;
+  margin-bottom: 24px;
+}
+
+.comments__author {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  position: relative;
+  max-width: 1184px;
+  width: 100%;
+  height: 594px;
+}
+
+.cover__title {
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  position: absolute;
+  top: 274px;
+  z-index: 20;
+}
+
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  width: 382px;
+  position: absolute;
+  bottom: 48px;
+  z-index: 20;
+  font-weight: 300;
+}
+
+.cover__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../Images/cover.jpg');
+  background-size: cover;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+.video__background:hover {
+  opacity: 0.2;
+}
+
+.cover__image:hover {
+  opacity: 0.2;
+}
+
+.emblem {
+  position: relative;
+  width: 1184px;
+  height: 523px;
+  margin-bottom: 85px;
+}
+
+.emblem__title {
+  font-size: 43px;
+  line-height: 45px;
+  margin-bottom: 82px;
+  width: 443px;
+}
+
+.emblem__container {
+  display: grid;
+  grid-template-columns: repeat(5, 208px);
+  grid-column-gap: 36px;
+}
+
+.emblem__item {
+  width: 208px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emblem__image {
+  margin-bottom: 35px;
+  height: 226px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.emblem__image_novgorod {
+  width: 186px;
+  background-image: url(../Images/novgorod.png);
+}
+
+.emblem__image_rostov {
+  width: 190px;
+  background-image: url(../Images/rostov.png);
+}
+
+.emblem__image_tambov {
+  width: 180px;
+  background-image: url(../Images/tambov.png);
+}
+
+.emblem__image_elabuga {
+  width: 176px;
+  background-image: url(../Images/elabuga.png);
+}
+
+.emblem__image_perm {
+  width: 180px;
+  background-image: url(../Images/perm.png);
+}
+
+.emblem__city {
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  width: 208px;
+  color: #CCCCCC;
+}
+
+.baretsburg {
+  margin-bottom: 140px;
+  width: 1184px;
+  position: relative;
+}
+
+.baretsburg__title {
+  font-size: 42px;
+  width: 583px;
+  line-height: 60px;
+}
+
+.baretsburg__coord {
+  font-size: 42px;
+  line-height: 60px;
+  width: 583px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  font-weight: 400;
+}
+
+.baretsburg__main-content {
+  display: flex;
+  margin-top: 48px;
+}
+
+.baretsburg__text {
+  font-size: 18px;
+  line-height: 30px;
+  width: 380px;
+  margin-right: 120px;
+  font-weight: 300;
+}
+
+.baretsburg__web {
+  display: flex;
+  flex-direction: column;
+}
+
+.baretsburg__url {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  margin-bottom: 6px;
+  color: #AAAAAA;
+}
+
+.baretsburg__link {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  width: 282px;
+  font-weight: 300;
+}
+
+.footer {
+  margin-bottom: 48px;
+  width: 1184px;
+  position: relative;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__link {
+  margin-right: 18px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: 928px;
+  }
+  .lead {
+    width: 928px;
+  }
+  .lead__group {
+    width: 884px;
+  }
+  .intro {
+    width: 928px;
+  }
+  .intro__subscribe {
+    width: 220px;
+  }
+  .grid-photos {
+    width: 928px;
+  }
+  .grid-photos__container {
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
+  }
+  .grid-photos__image {
+    width: 300px;
+    height: 200px;
+  }
+  .places {
+    width: 928px;
+  }
+  .place {
+    width: 100%;
+  }
+  .place__text {
+    margin-bottom: 24px;
+  }
+  .video__container {
+    width: 928px;
+  }
+  .video__item {
+    width: 456px;
+    height: 288px;
+  }
+  .video__duration {
+    margin-top: 125px;
+  }
+  .additional__container {
+    width: 990px;
+    grid-template-columns: repeat(4, 240px);
+    grid-column-gap: 10px;
+  }
+  .additional__item {
+    width: 240px;
+    height: 280px;
+  }
+  .additional__item-title {
+    width: 208px;
+    font-size: 24px;
+  }
+  .additional__text {
+    width: 210px;
+  }
+  .comments {
+    width: 928px;
+    margin: 0 auto 100px;
+  }
+  .comments__container {
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 14px;
+  }
+  .comments__text {
+    width: 280px;
+  }
+  .cover {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  .emblem {
+    width: 922px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emblem__container {
+    grid-template-columns: repeat(5, 170px);
+    grid-column-gap: calc((922px - 170px * 5) / 4);
+  }
+  .emblem__image_novgorod {
+    width: 165px;
+  }
+  .emblem__image_rostov {
+    width: 170px;
+  }
+  .emblem__image_tambov {
+    width: 160px;
+  }
+  .emblem__image_elabuga {
+    width: 156px;
+  }
+  .emblem__image_perm {
+    width: 160px;
+  }
+  .baretsburg {
+    width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .baretsburg__map {
+    width: 1024px;
+    margin-left: -48px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer__nav {
+    margin-left: 48px;
+  }
+  .footer__copyright {
+    bottom: 5px;
+    right: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    width: 720px;
+  }
+  .lead {
+    width: 100vw;
+  }
+  .lead__group {
+    width: 730px;
+  }
+  .lead__caption {
+    margin-left: 24px;
+  }
+  .intro {
+    width: 720px;
+  }
+  .intro__content-row {
+    height: 218px;
+  }
+  .intro__subtitle {
+    margin-bottom: 0;
+  }
+  .intro__subscribe {
+    position: relative;
+    margin-top: 20px;
+  }
+  .intro__text {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .grid-photos {
+    width: 720px;
+  }
+  .grid-photos__container {
+    grid-template-columns: repeat(2, 352px);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .grid-photos__image {
+    width: 352px;
+    height: 234px;
+  }
+  .places {
+    width: 720px;
+  }
+  .place__header {
+    margin-bottom: 40px;
+    height: 104px;
+  }
+  .places_web-container {
+    width: 352px;
+    height: 70px;
+  }
+  .place__web {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .place__title {
+    width: 340px;
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-right: 28px;
+  }
+  .place__text {
+    width: 352px;
+  }
+  .place__image {
+    width: 340px;
+    height: 340px;
+    margin-right: 28px;
+  }
+  .video__container {
+    width: 720px;
+  }
+  .video__item {
+    width: 352px;
+    height: 200px;
+  }
+  .video__icon {
+    top: 25px;
+    left: 25px;
+  }
+  .video__duration {
+    margin-top: 104px;
+    margin-bottom: 18px;
+  }
+  .video__duration_observ {
+    margin-top: 82px;
+  }
+  .video__item-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    line-height: 26px;
+  }
+  .additional__container {
+    width: 584px;
+    grid-template-columns: repeat(2, 284px);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .additional__item {
+    width: 284px;
+    height: 330px;
+  }
+  .additional__item-title {
+    width: 248px;
+    font-size: 27px;
+  }
+  .additional__text {
+    width: 248px;
+  }
+  .comments {
+    width: 660px;
+    margin: 0 auto 100px;
+  }
+  .comments__title {
+    font-size: 42px;
+    line-height: 46px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .comments__subtitle {
+    width: 640px;
+    margin-bottom: 10px;
+  }
+  .comments__container {
+    display: block;
+  }
+  .comments__author {
+    position: absolute;
+    top: 116px;
+  }
+  .comments__text {
+    width: 336px;
+    font-size: 16px;
+    margin-top: 60px;
+  }
+  .comments__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+  }
+  .cover {
+    width: 100vw;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cover__title {
+    width: 550px;
+    font-weight: 900;
+    top: 126px;
+  }
+  .emblem {
+    width: 720px;
+    height: 871px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emblem__container {
+    grid-template-columns: repeat(3, 208px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+  .emblem__image_novgorod {
+    width: 186px;
+  }
+  .emblem__image_rostov {
+    width: 190px;
+  }
+  .emblem__image_tambov {
+    width: 180px;
+  }
+  .emblem__image_elabuga {
+    width: 176px;
+  }
+  .emblem__image_perm {
+    width: 180px;
+  }
+  .baretsburg {
+    margin-top: 85px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .baretsburg__map {
+    width: 100vw;
+    height: 362px;
+    margin-left: -24px;
+  }
+  .baretsburg__text {
+    width: 405px;
+    margin-right: 24px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer__nav {
+    margin-left: 24px;
+  }
+  .footer__link {
+    font-size: 16px;
+  }
+  .footer__copyright {
+    bottom: 10px;
+    right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: calc(100vw - 32px);
+  }
+  .lead__group {
+    width: 357px;
+  }
+  .lead__caption {
+    margin-left: 10px;
+  }
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    width: 90%;
+    font-weight: 600;
+  }
+  .lead__subtitle {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 23px;
+    width: 90%;
+  }
+  .lead__image {
+    margin-top: 30px;
+  }
+  .lead__group {
+    bottom: 78px;
+    left: 8px;
+  }
+  .intro {
+    width: calc(100vw - 32px);
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 23px;
+  }
+  .intro__content-row {
+    height: auto;
+  }
+  .intro__subtitle {
+    line-height: 32px;
+  }
+  .intro__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .grid-photos {
+    width: calc(100vw - 32px);
+    margin-bottom: 64px;
+  }
+  .grid-photos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-photos__image {
+    width: 343px;
+    height: 232px;
+    margin-bottom: 15px;
+  }
+  .places {
+    width: calc(100vw - 32px);
+  }
+  .place {
+    margin-bottom: 0;
+  }
+  .place__text-container{
+    margin-bottom: 24px;
+  }
+  .place__header {
+    margin-bottom: 32px;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+  }
+  .place__main-contest {
+    flex-direction: column;
+  }
+  .place__url {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .place__web {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__image {
+    width: 100vw;
+    height: 100vw;
+    margin-left: -16px;
+    margin-bottom: 24px;
+  }
+  .place__text-container{
+    width: 100%;
+  }
+  .place__text{
+    width: 100%;
+  }
+  .video {
+    width: calc(100vw - 32px);
+    margin-top: calc(64px - 48px);
+  }
+  .video__container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .video__subtitle {
+    width: 100%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 32px;
+  }
+  .video__item {
+    width: 343px;
+    height: 200px;
+    margin-bottom: 8px;
+  }
+  .video__icon {
+    top: 25px;
+    left: 25px;
+  }
+  .video__duration {
+    margin-top: 104px;
+    margin-bottom: 18px;
+  }
+  .video__duration_observ {
+    margin-top: 82px;
+  }
+  .video__item-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    line-height: 26px;
+  }
+  .additional {
+    margin: 64px auto;
+    width: calc(100vw - 32px);
+  }
+  .additional__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+    height: auto;
+  }
+  .additional__subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    width: calc(100vw - 90px);
+    margin-bottom: 48px;
+  }
+  .additional__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .additional__item {
+    width: 284px;
+    height: 330px;
+    margin-bottom: 24px;
+  }
+  .comments {
+    width: calc(100vw - 32px);
+    margin: 0 auto 64px;
+  }
+  .comments__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .comments__subtitle {
+    width: 100%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+  .comments__container {
+    display: block;
+  }
+  .comments__author {
+    position: absolute;
+    top: 116px;
+  }
+  .comments__text {
+    width: 336px;
+    font-size: 16px;
+    margin-top: 60px;
+  }
+  .comments__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+  }
+  .cover {
+    width: 100vw;
+    height: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+  .cover__title {
+    width: calc(100vw - 32px);
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 900;
+    top: 103px;
+  }
+  .cover__subtitle {
+    bottom: 24px;
+    width: calc(100vw - 32px);
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cover__image {
+    width: 100vw;
+    height: 100%;
+  }
+  .emblem {
+    width: calc(100vw - 32px);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .emblem__title {
+    font-size: 24px;
+    line-height: 26px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .emblem__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .emblem__item {
+    margin-bottom: 56px;
+  }
+  .emblem__image_novgorod {
+    width: 186px;
+  }
+  .emblem__image_rostov {
+    width: 190px;
+  }
+  .emblem__image_tambov {
+    width: 180px;
+  }
+  .emblem__image_elabuga {
+    width: 176px;
+  }
+  .emblem__image_perm {
+    width: 180px;
+  }
+  .baretsburg {
+    margin-top: 0;
+    width: calc(100vw - 32px);
+    margin-bottom: 48px;
+  }
+  .baretsburg__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .baretsburg__coord {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 23px;
+  }
+  .baretsburg__map {
+    width: 100vw;
+    height: 184px;
+    margin-left: -16px;
+  }
+  .baretsburg__main-content {
+    margin-top: 24px;
+    flex-direction: column-reverse;
+  }
+  .baretsburg__text {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 32px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer__nav {
+    margin-left: 24px;
+    flex-direction: column;
+  }
+  .footer__link {
+    font-size: 16px;
+  }
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 20px;
+    left: 24px;
+    bottom: -48px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .header__logo {
+    width: 142px;
+  }
+  .header__lang {
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .header__lang_active {
+    right: 36px;
+  }
+  .lead__group {
+    width: 305px;
+  }
+  .intro__desription-text {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .grid-photos__image {
+    width: 288px;
+    height: 192px;
+    margin-bottom: 8px;
+  }
+  .place {
+    width: 100%;
+  }
+  .place__text-container {
+    width: 100%;
+  }
+  .place__text {
+    width: 100%;
+  }
+  .video__item {
+    width: 288px;
+    height: 192px;
+    margin-bottom: 8px;
+  }
+  .video__icon {
+    top: 16px;
+    left: 16px;
+  }
+  .video__duration {
+    margin-top: 104px;
+    margin-bottom: 18px;
+  }
+  .video__duration_observ {
+    margin-top: 80px;
+  }
+  .additional {
+    margin-bottom: 40px;
+  }
+  .comments__text {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 60px;
+  }
+  .comments__item {
+    width: 100%;
+  }
+  .cover {
+    height: 216px;
+  }
+  .cover__title {
+    top: 64px;
+  }
+}
